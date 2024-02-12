@@ -1,0 +1,62 @@
+body{
+    background-image: url("../images/poke1.jpeg");
+    background-repeat:repeat-x;
+    
+}
+
+/* body{
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+} 
+*/
+
+/* .pokeprint{
+    background-color: aqua;
+    width : 500px;
+    height: 500px; 
+    border: 1px solid navy; 
+} */
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    width : 500px;
+    height: 500px; 
+    border: 1px solid navy; 
+}
+
+.poke_form{
+    
+    height: 200px; 
+    background-color: rgb(247, 244, 241);
+    max-width: 30%;
+    border: 1px solid wheat; 
+    align-items: left;
+    margin-top: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 20px;
+}
+.h2pokemon{
+    color: rgb(13, 157, 214)
+
+}
+
+.submit_btn{
+    background-color: rgb(13, 157, 214);
+    color: whitesmoke;
+    font-weight: 600;
+    font-size:x-large;
+    align-items: center;
+    width: 35%;
+    
+}
+.submit_btn:hover{
+    background-color:  rgb(13, 157, 214);
+    color: whitesmoke; 
+}
+
+

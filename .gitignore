@@ -1,0 +1,8 @@
+.venv/
+--pyache--/
+notes_etc.txt/
+.env/
+hidden_files/
+migrations/
+
+

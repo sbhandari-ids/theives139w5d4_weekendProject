@@ -1,0 +1,29 @@
+{%extends 'base.html'%}
+
+{%block title%} 
+Sign Up 
+{%endblock%}
+ 
+{%block content%} 
+{%include './includes/navbar.html'%}        
+
+<form method = 'POST'>
+    {{form.hidden_tag()}}
+     <div class="mb-3">
+      <label for="username" class="form-label">Username</label>
+        {{form.username(class='form-control')}}
+        <!-- , id="username") , id="email" , id="password")-->
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        {{form.email(class='form-control')}}
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+        {{form.password(class='form-control')}}
+      </div>
+     
+      {{form.submit_btn(class='btn-primary', id='btn_signup')}}
+  </form>
+
+{%endblock%}
